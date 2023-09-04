@@ -1,0 +1,3476 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "f0b284c6-941b-4390-ab18-cff068ca1828",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "DinoPlataformerTutorial",
+    "description": "My plataform game about a dino.",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [
+      "rGNF9T9IiVPK3B4AzGJzYb50Bhl2"
+    ],
+    "authorUsernames": [
+      "GoofyDevelop"
+    ],
+    "categories": [
+      "platformer"
+    ],
+    "playableDevices": [
+      "keyboard"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cloud (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud (1).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/85b0e6d046a9a1e13436b94863721bd6ba25a1f3e898802ce3e0df53d4b16fe6_cloud (1).png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mask Dude_Double Jump_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mask Dude_Double Jump_1.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Main Characters/Mask Dude/40df336b5eaea883f93aaa3344bee98c830ffc5e6a34d6f686502539cdb05629_Mask Dude_Double Jump_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mask Dude_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mask Dude_Idle_1.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Main Characters/Mask Dude/9928a8ae566c02da66833f5eb601adf11b942091be38dfaec8261d925df1e48c_Mask Dude_Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Doux_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Doux_Idle_1.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/f615ebc591096e02b42f2e8a2d3ade0a40305e02acd1d6f72926448d47620689_Dino Doux_Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Dirt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Dirt.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Background/938fefca8c83e1ad4d62a003a558e4fb6e66fcf8fd2470c6debb9f737504477e_tiled_Dirt.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tile 29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile 29.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/3b7eebc19998f973156d25533e4acd5eec7cbb0940011c9f0fa92962975e3f24_Tile 29.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tileset Piece 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tileset Piece 2.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/ecba29c20918a067f60312a9ffb111f771322f14b8f5683d187ae3fe12332f0d_tiled_Tileset Piece 2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Green Platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Green Platform.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Tiles/d88d5fde98a24251aa1d70e9edf2b325d440ab31e04dda1478f35aa4d181f483_Small Green Platform.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bridge body_a normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bridge body_a normal.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/road/dc9332e1e9523e4bc47f6b4b6f9194206008a550c8ce662dcfe20b9fc1444e10_bridge body_a normal.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wall Corner Front Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wall Corner Front Left.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Walls/9b737eeded9b7ff7cbba567cc7cb5d5e177f97b4e097213a4c3bebc7ab5f49a0_Wall Corner Front Left.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Green Floor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Green Floor.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Tiles/bfdd142c22759693e30cef1102db9e6424d978592d2b1f11c50f45f658f2b0ff_tiled_Green Floor.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Doux_Move_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Doux_Move_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/b84047f9b2c4db6b470245a8dc572b2afc608cb2882408f7b471f475373b19bf_Dino Doux_Move_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Doux_Move_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Doux_Move_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/2ceac1a9fe68de7963a153fe486682e0ca871af7be536742d7ae32689d22ca1b_Dino Doux_Move_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Doux_Move_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Doux_Move_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/379643c1dc0a8a22aaa2a681ebd79769d602de462d6f03ef560e2237c57d9c26_Dino Doux_Move_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Doux_Sneak_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Doux_Sneak_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/87b79e6b59197b0e8b34495bcbe4a1a245114dc32d9ddf8ded7ef51d4501ff8b_Dino Doux_Sneak_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Doux_Sneak_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Doux_Sneak_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/f4076c67f123158bb46bb2e7222223ea87fc531a2eced08c7ddf7e960f5653f4_Dino Doux_Sneak_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Doux_Sneak_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Doux_Sneak_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/bccc9cc56366d7106d88079c47b1f58eedd8d37d5ae65be0a57d12600f264246_Dino Doux_Sneak_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Doux_Sneak_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Doux_Sneak_4.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/088fb6ed4348c0412e45ad6466a7be2eaa3a9001432f4fb665189ab662daf6b5_Dino Doux_Sneak_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Doux_Sneak_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Doux_Sneak_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/51e5317e7b9edbf418e1d780b3b8658d60a15dfc63825c9f960355173313af10_Dino Doux_Sneak_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Doux_Sneak_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Doux_Sneak_6.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/1ceb1d46aff56944d68eea195bae1f954fe4290f484638617c2a56ce514afc54_Dino Doux_Sneak_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/18101eab3e70a5f44b0d55874fe69db959d6a6c5ce06ac10a627296794b4034b_Apple_1.png",
+          "name": "Apple_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/0a8b0bb7806b77c0d6d88fe58765dd7ef9c97a2f2c92021fc69562129e979ad5_Apple_10.png",
+          "name": "Apple_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/0a8b0bb7806b77c0d6d88fe58765dd7ef9c97a2f2c92021fc69562129e979ad5_Apple_11.png",
+          "name": "Apple_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/a6a4013a542c2703671bdef196ddb752b01a036bc75e41c5c5179b61457fc754_Apple_12.png",
+          "name": "Apple_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/5b7c797a9c81ae153f561a5a3b3060cc4d6891393cde9bff222cac73be07f581_Apple_13.png",
+          "name": "Apple_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/5b7c797a9c81ae153f561a5a3b3060cc4d6891393cde9bff222cac73be07f581_Apple_14.png",
+          "name": "Apple_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/5b7c797a9c81ae153f561a5a3b3060cc4d6891393cde9bff222cac73be07f581_Apple_15.png",
+          "name": "Apple_15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/a6a4013a542c2703671bdef196ddb752b01a036bc75e41c5c5179b61457fc754_Apple_16.png",
+          "name": "Apple_16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/a6a4013a542c2703671bdef196ddb752b01a036bc75e41c5c5179b61457fc754_Apple_17.png",
+          "name": "Apple_17.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/18101eab3e70a5f44b0d55874fe69db959d6a6c5ce06ac10a627296794b4034b_Apple_2.png",
+          "name": "Apple_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/18101eab3e70a5f44b0d55874fe69db959d6a6c5ce06ac10a627296794b4034b_Apple_3.png",
+          "name": "Apple_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/18101eab3e70a5f44b0d55874fe69db959d6a6c5ce06ac10a627296794b4034b_Apple_4.png",
+          "name": "Apple_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/18101eab3e70a5f44b0d55874fe69db959d6a6c5ce06ac10a627296794b4034b_Apple_5.png",
+          "name": "Apple_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/0a8b0bb7806b77c0d6d88fe58765dd7ef9c97a2f2c92021fc69562129e979ad5_Apple_6.png",
+          "name": "Apple_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/289d7c765897e68924326b78dbc699e81b57118b05f8f2c8fac686f42683cd02_Apple_7.png",
+          "name": "Apple_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/289d7c765897e68924326b78dbc699e81b57118b05f8f2c8fac686f42683cd02_Apple_8.png",
+          "name": "Apple_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Fruits/Apple/289d7c765897e68924326b78dbc699e81b57118b05f8f2c8fac686f42683cd02_Apple_9.png",
+          "name": "Apple_9.png"
+        }
+      },
+      {
+        "file": "assets/grass.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "grass.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Audio/21262945e918c2d941835976315a31e9321f8a53316217fa5c3832d8d070ce07_grass.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/coin.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "coin.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Audio/de880373f1471d9c0960e160c52e1ab6b0e50c737652c6d7d53490b4420c7089_coin.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Kenney Pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Kenney Pixel.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Ranchers-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Ranchers-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/566a014b24b13d8f73118f13a7105778225c22c95127a8f1d5c3e996ff0768de_Ranchers-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/61c8e1d677cb56b601b39e99f92cc7b70cef949415c9fe270381f47304f36d28_Gloppy Slime_Hurt.png",
+          "name": "Gloppy Slime_Hurt.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/12525d528422d7071f840987a8e900c6728d7820b0bb3fa96f27d458bff9116c_Gloppy Slime_Idle_1.png",
+          "name": "Gloppy Slime_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/c9f9327108e2f90fc1ad7660b0430f6a39944add2bc1e8718fbea13150bbe7dc_Gloppy Slime_Idle_2.png",
+          "name": "Gloppy Slime_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Pop out_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Pop out_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/9a4b7eae3517e22288ee4ff2febea13ac5bd07de6db7c5d9b158187e0772e9d0_Gloppy Slime_Pop out_1.png",
+          "name": "Gloppy Slime_Pop out_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Pop out_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Pop out_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/eb87f438646b3e30a2068a66d86e9a973dee40da1fb813b3ad8cd6859b55223c_Gloppy Slime_Pop out_2.png",
+          "name": "Gloppy Slime_Pop out_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Pop out_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Pop out_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/9db44b6f9f015fc9f5d7419245a48fe760605bb84ed8d9a09a51ae6a622cb584_Gloppy Slime_Pop out_3.png",
+          "name": "Gloppy Slime_Pop out_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Sinking_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Sinking_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/9db44b6f9f015fc9f5d7419245a48fe760605bb84ed8d9a09a51ae6a622cb584_Gloppy Slime_Sinking_1.png",
+          "name": "Gloppy Slime_Sinking_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Sinking_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Sinking_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/eb87f438646b3e30a2068a66d86e9a973dee40da1fb813b3ad8cd6859b55223c_Gloppy Slime_Sinking_2.png",
+          "name": "Gloppy Slime_Sinking_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Sinking_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Sinking_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/9a4b7eae3517e22288ee4ff2febea13ac5bd07de6db7c5d9b158187e0772e9d0_Gloppy Slime_Sinking_3.png",
+          "name": "Gloppy Slime_Sinking_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left arrow button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left arrow button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/69b5c8f8989a271fbbe9d2f68763f7e820044f505b0d0b66874bd20f70935a3c_Left arrow button.png",
+          "name": "Left arrow button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right arrow button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right arrow button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/cb2f532a9cd3feb7cb8af6cdcb1de5ec074dc6aacf5c851dcd243c407aedd605_Right arrow button.png",
+          "name": "Right arrow button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green bush 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green bush 1.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/PNG/Retina/42f4a550a0579a4250eff104d8d29f9f6d85dd73a45c2e5a31b01f283516d45a_Green bush 1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Blip 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Blip 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Blip/406bd0e4abc5c10b56bf8521fcd118dabef30afc61bcf9ce5007eaf64727b1ea_Blip 1.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Scream 2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Scream 2.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/dafb79fda1449ac80c3d42b10691c1d256b37728cb0a7f2b86fb1597632f3ce2_Scream 2.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Death.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Death.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/95fe7f6a064b3e17dce2774ad92cee83f877d2d6dda1cd16d79b876ca572911c_Death.aac",
+          "name": "gdevelop-asset-store"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 248,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Main_32Scene",
+      "name": "Main Scene",
+      "r": 52,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 100,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5653158055126308,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Score",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "CheckPointX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "CheckPointY",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 140,
+          "layer": "",
+          "name": "Cloud",
+          "persistentUuid": "a731ffae-57c3-4f43-a7c9-fbaa45d314d5",
+          "width": 243,
+          "x": -270,
+          "y": 45,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 176,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "b567819f-0950-4041-8399-cefced3a83e1",
+          "width": 187,
+          "x": -649,
+          "y": 373,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 65,
+          "layer": "",
+          "name": "DirtPlataform",
+          "persistentUuid": "5ec83fa9-d2a1-49b3-9bd0-fd4eb84f121c",
+          "width": 2632,
+          "x": -646,
+          "y": 530,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 44,
+          "layer": "",
+          "name": "GrassJumpPlataform",
+          "persistentUuid": "6c35de66-5bb4-4036-9a58-8c6c534c9f7c",
+          "width": 632,
+          "x": 491,
+          "y": 418,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 150,
+          "layer": "",
+          "name": "Apple",
+          "persistentUuid": "8a270840-7307-4d84-b49d-76eecc2536ba",
+          "width": 150,
+          "x": 1745,
+          "y": 413,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 150,
+          "layer": "",
+          "name": "Apple",
+          "persistentUuid": "61d8b72d-f53f-445c-9e8c-568b7c6eff57",
+          "width": 150,
+          "x": -460,
+          "y": 409,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "layer": "UI",
+          "name": "Score",
+          "persistentUuid": "f2aaef5f-839d-4d2a-954e-b7f378622d00",
+          "width": 204,
+          "x": 1078,
+          "y": 52,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 140,
+          "layer": "",
+          "name": "Cloud",
+          "persistentUuid": "d3e8dc71-7687-474c-97da-373fd69af756",
+          "width": 243,
+          "x": 777,
+          "y": 43,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "layer": "",
+          "name": "GloppySlime",
+          "persistentUuid": "848de732-9a92-4672-9b36-889aafd41d93",
+          "width": 100,
+          "x": 1370,
+          "y": 431,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "LeftArrow",
+          "persistentUuid": "7fdfee07-c022-4871-ad96-58c82c518dbf",
+          "width": 0,
+          "x": 1582,
+          "y": 439,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "RightArrow",
+          "persistentUuid": "5519c576-123b-4efd-a313-ce1f3a3abb37",
+          "width": 0,
+          "x": 1159,
+          "y": 438,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 150,
+          "layer": "",
+          "name": "Apple",
+          "persistentUuid": "80462459-d4ad-4a49-9b0f-9a3d5f0d2432",
+          "width": 150,
+          "x": 976,
+          "y": 292,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 140,
+          "layer": "",
+          "name": "Cloud",
+          "persistentUuid": "3a565ce9-98fd-4afa-9452-487fa1ec6982",
+          "width": 243,
+          "x": 276,
+          "y": 38,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "layer": "",
+          "name": "GloppySlime",
+          "persistentUuid": "ef9e8644-c974-40a9-90b7-acc5d8e17cea",
+          "width": 100,
+          "x": 113,
+          "y": 429,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "LeftArrow",
+          "persistentUuid": "a944adcc-328f-4e09-9e31-5dc0c31c5b9b",
+          "width": 0,
+          "x": 358,
+          "y": 435,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "RightArrow",
+          "persistentUuid": "72e47eba-dd10-4833-82c4-9ff472e0fa6a",
+          "width": 0,
+          "x": -108,
+          "y": 432,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 150,
+          "layer": "",
+          "name": "Apple",
+          "persistentUuid": "eb8aca55-6d67-49b8-85be-1375dfb8c3d3",
+          "width": 150,
+          "x": 486,
+          "y": 303,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CheckPoint",
+          "persistentUuid": "ca1101c0-3cdf-4e59-8982-bc7eb922c484",
+          "width": 0,
+          "x": 712,
+          "y": 312,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 150,
+          "layer": "",
+          "name": "Apple",
+          "persistentUuid": "a119caed-d7d6-469b-b249-ba418b99739c",
+          "width": 150,
+          "x": -276,
+          "y": 409,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Cloud",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "cloud (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Player",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Doux_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 19,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 4,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jumping",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Doux_Move_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 19,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 4,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Running",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Doux_Sneak_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 24,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 24,
+                            "y": 18.5
+                          },
+                          {
+                            "x": 6,
+                            "y": 18.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Doux_Sneak_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 24,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 24,
+                            "y": 18.5
+                          },
+                          {
+                            "x": 6,
+                            "y": 18.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Doux_Sneak_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 24,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 24,
+                            "y": 18.5
+                          },
+                          {
+                            "x": 6,
+                            "y": 18.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Doux_Sneak_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 24,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 24,
+                            "y": 18.5
+                          },
+                          {
+                            "x": 6,
+                            "y": 18.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Doux_Sneak_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 24,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 24,
+                            "y": 18.5
+                          },
+                          {
+                            "x": 6,
+                            "y": 18.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Doux_Sneak_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 24,
+                            "y": 4.5
+                          },
+                          {
+                            "x": 24,
+                            "y": 18.5
+                          },
+                          {
+                            "x": 6,
+                            "y": 18.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "DirtPlataform",
+          "tags": "",
+          "texture": "tiled_Dirt.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "GrassJumpPlataform",
+          "tags": "",
+          "texture": "tiled_Green Floor.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "2632fdf3c8ed320d776206589f38dd45fc4aa31226f4e8e9db65c477ec469315",
+          "name": "Apple",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.0588,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Apple_17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 7
+                          },
+                          {
+                            "x": 21,
+                            "y": 20
+                          },
+                          {
+                            "x": 10,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Score: 0",
+          "font": "Ranchers-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "31dea3a9682a2c2c4db1cb915153c49807f0b155c8d4a9286004e827fb8129b9",
+          "name": "GloppySlime",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "direction",
+              "type": "string",
+              "value": "right"
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Gloppy Slime_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Gloppy Slime_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hurt",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Gloppy Slime_Hurt.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pop out",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.3333,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Gloppy Slime_Pop out_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Gloppy Slime_Pop out_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Gloppy Slime_Pop out_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sinking",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.3333,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Gloppy Slime_Sinking_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Gloppy Slime_Sinking_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Gloppy Slime_Sinking_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "5b15807864fa4e31a41e1e85600b000f73802cc39dbe61e3048a0bcc3930ae0e",
+          "name": "LeftArrow",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Left arrow button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 79
+                          },
+                          {
+                            "x": 0,
+                            "y": 79
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "0236c9d3f392e7c67c24858c9725a423057a0586e6569a46cdb60f9ac2cf3c88",
+          "name": "RightArrow",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Right arrow button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 79
+                          },
+                          {
+                            "x": 0,
+                            "y": 79
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "CheckPoint",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Green bush 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "LeftArrow"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "RightArrow"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "CheckPointX",
+                "=",
+                "Player.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "CheckPointY",
+                "=",
+                "Player.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Jumping\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Running\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Player",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Player",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Apple",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Apple",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "coin.aac",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "\"Score: \" + ToString(Variable(Score))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "GloppySlime",
+                "direction",
+                "=",
+                "\"right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "GloppySlime",
+                "0",
+                "100",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "GloppySlime",
+                "direction",
+                "=",
+                "\"left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "GloppySlime",
+                "180",
+                "100",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GloppySlime",
+                "LeftArrow",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "GloppySlime",
+                "direction",
+                "=",
+                "\"left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "GloppySlime",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GloppySlime",
+                "RightArrow",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "GloppySlime",
+                "direction",
+                "=",
+                "\"right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "GloppySlime",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "GloppySlime",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "Variable(CheckPointX)",
+                "=",
+                "Variable(CheckPointY)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Scream 2.aac",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "GloppySlime",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsFalling"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "GloppySlime",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SetCanJump"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Death.aac",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "CheckPoint",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "CheckPointX",
+                "=",
+                "CheckPoint.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "CheckPointY",
+                "=",
+                "CheckPoint.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "Apple",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "\"Game Over\""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 8042920,
+          "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
